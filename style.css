@@ -81,7 +81,7 @@ width: 350px;}
 
 .shoe-card{height: 475px;
 width: 355px ;
-box-shadow: 25px 25px 25px 25px #E3E3E3;
+box-shadow: 20px 20px 20px 20px #E3E3E3;
 background-color: white;}
 
 .shoe-card-main-div{display: grid;
@@ -122,7 +122,7 @@ padding-left: 14px;}
     
     .bag-cards{height: 580px;
     width: 355px ;
-    box-shadow: 25px 25px 25px 25px #E3E3E3;
+    box-shadow: 20px 20px 20px 20px #E3E3E3;
     background-color: white;}
     
     .bag-card-main-div{display: grid;
@@ -157,9 +157,41 @@ padding-left: 14px;}
     #button-5{margin-top: 88px;}
     #button-6{margin-top: 20px;}
 /* display bags area style end here */
+/* footer area style start here */
 
+.footer-area{margin-left: 40px;
+    margin-right: 40px;
+background-color: #FFECF0;
+margin-top: 60px;
+height: 310px;
+margin-bottom: 50px;}
 
+.footer-main-div{padding-left: 350px;
+padding-top: 50px;
+line-height: 15px;}
 
+.footer-main-div h1{font-size: 40px;
+font-weight: 400;}
 
+.inputs{height: 40px;
+width: 380px;
+border: 1px solid white;
+border-radius: 5px;
+font-size: 16px;
+padding-left: 15px;}
 
+.footer-button{
+    background-color: #ff2279;
+    color: white;
+    padding: 12px 20px;
+    font-size: 20px;
+    border: #ff2279;border-radius: 5px;
+margin-top: 15px;}
+.footer-button:hover{cursor: pointer;}
+
+.copy-right{text-align: center;
+font-weight: 400;
+margin-bottom: 50px;}
+
+/* footer area style end here */
 
