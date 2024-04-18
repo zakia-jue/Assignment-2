@@ -33,11 +33,11 @@ font-weight: 400;
 line-height: 10px;}
 .banner-text p{font-size: 16px;}
 .banner-price{color: #ffc107;}
-.banner-button{background-color: #ff278c;
+.banner-button{background-color: #ff2279;
 color: white;
-padding: 10px 20px;
+padding: 12px 20px;
 font-size: 20px;
-border: #ff278c;border-radius: 5px;
+border: #ff2279;border-radius: 5px;
 }
 .banner-price:hover{cursor: pointer;}
 .banner-button:hover{cursor: pointer;}
@@ -76,5 +76,54 @@ margin-right: 40px;
 gap: 15px;
 padding-top: 50px;}
 /* colourful card area style end here */
+/* shoes display area style start here */
+
+.display-shoe-img{height: 215px;
+width: 350px;}
+
+.shoe-card{height: 475px;
+width: 355px ;
+box-shadow: 25px 25px 25px 25px #E3E3E3;
+background-color: white;}
+
+.shoe-card-main-div{display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+gap: 15px;}
+
+.display-shoes{margin-left: 40px;
+    margin-right: 40px;}
+.main-text{font-size: 33px;
+font-weight: 400;
+line-height: 3px;
+padding-top: 45px;}
+
+.shoe-card h3{font-size: 20px;
+font-weight: 400;
+line-height: 5px;
+padding-left: 14px;}
+
+.shoe-card p{font-size: 15px;
+    font-weight: 400;
+    padding-left: 14px;}
+
+.shoe-buttons{margin-left: 14px;
+    background-color: #ff2279;
+    color: white;
+    padding: 12px 20px;
+    font-size: 20px;
+    border: #ff2279;border-radius: 5px;}
+.shoe-buttons:hover{cursor: pointer;}
+
+#button-2{margin-top: 88px;}
+#button-3{margin-top: 20px;}
+/* shoes display area style end here */
+
+
+
+
+
+
+
+
 
 
