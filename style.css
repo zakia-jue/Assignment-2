@@ -15,6 +15,39 @@ gap: 18px;}
 .navbar-text li{font-size: 15px;}
 /* navbar area style end here */
 
+/* banner area style start here */
+.banner-area{display: flex;
+background-color: #FFECF0;
+margin-left: 40px;
+margin-right: 40px;
+height: 550px;}
+
+.banner-img{height: 450px;
+width: 410px;}
+.img-div{padding-top: 50px;}
+
+.banner-text{padding-top: 150px;
+    padding-left: 50px;}
+.banner-text h1{font-size: 40px;
+font-weight: 400;
+line-height: 10px;}
+.banner-text p{font-size: 16px;}
+.banner-price{color: #ffc107;}
+.banner-button{background-color: #ff278c;
+color: white;
+padding: 10px 20px;
+font-size: 20px;
+border: #ff278c;border-radius: 5px;
+}
+.banner-price:hover{cursor: pointer;}
+.banner-button:hover{cursor: pointer;}
+/* banner area style end here */
+
+
+
+
+
+
 
 
 
