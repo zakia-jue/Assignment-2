@@ -82,11 +82,97 @@ margin-bottom: 30px;}
     font-size: 18px;
     margin-top: 12px;}
 .copy-right{font-size: 14px;
-margin-bottom: 300px;} 
+margin-bottom: 50px;} 
 /* footer area responsive end here   */
 }
+/* responsive style for medium screen */
+@media only screen and (min-width:689px)and
+(max-width:992px){
 
+    /* navbar area responsive start */
+.navbar-text{padding-left: 30px;}
+.navbar-text li{font-size: 15px;}
+#icon-bar{display: none;}
+.nav-img{height: 30px;
+    width: 140px;}
 
+    /* banner area responsive style start */
+.banner-area{margin-left: 25px;
+    margin-right: 25px;
+    height: 420px;}
+.banner-img{height: 260px;
+    width: 240px;}
+.img-div{padding-top: 110px;}
+.banner-text{padding-top: 30px;
+        padding-left: 30px;}
+.banner-heading{font-size: 40px;
+    font-weight: 400;line-height: 40px;}
+.banner-text p{font-size: 18px;}
+.banner-price{font-weight: 400;
+font-size: 30px;}
+.banner-button{padding: 10px 12px;}
+
+/* colorful card area responsive here */
+.colourful-cards-1{height: 110px;
+     width: 335px;}
+.colourful-cards-2{height: 110px;
+     width: 335px;}
+.colourful-cards-3{height: 110px;
+     width: 335px;}
+.card-text{font-size: 35px;}
+.colourful-cards-img{height:75px;
+    width: 75px;
+    padding-top: 15px;
+    padding-right: 10px;}
+.colorful-main-div{grid-template-columns: 1fr 1fr;
+    margin-left: 25px;
+    margin-right: 25px;
+    gap: 15px;
+    padding-top: 30px;}
+
+/* display shoe area responsive here */
+.display-shoe-img{height: 180px;
+    width: 210px;}
+.shoe-card{height: 535px;
+    width: 225px ;}
+.display-shoes{margin-left: 25px;
+    margin-right: 25px;}
+.main-text{font-size: 30px;
+   padding-top: 10px;}
+.shoe-card h3{font-size: 25px;}
+#button-2{margin-top: 132px;}
+#button-3{margin-top: 43px;}
+
+/* display bag area responsive here */
+.display-bag-img{height: 310px;
+    width: 260px;
+padding-right: 80px;}
+.bag-cards{height: 610px;
+    width: 225px ;}
+.display-bags{margin-left: 25px;
+        margin-right: 25px;}
+.main-bags-text{font-size: 30px;
+    font-weight: 400;
+    line-height: 3px;
+    padding-top: 15px;}
+#button-6{margin-top: 1px;}
+
+/* footer area responsive style here */
+.footer-area{margin-left: 25px;
+    margin-right: 25px;
+margin-top: 20px;
+height: 310px;
+margin-bottom: 30px;}
+.footer-main-div{padding-left: 150px;}
+.footer-main-div h1{font-size: 32px;}
+.inputs{height: 35px;
+width: 300px;}
+
+.footer-button{padding: 10px 20px;
+    font-size: 20px;
+    margin-top: 10px;}
+.copy-right{margin-bottom: 50px;}
+}
 
 
 

@@ -10,8 +10,8 @@ body{ font-family: "Poppins", sans-serif;}
 justify-content: start;
 list-style-type: none;
 gap: 18px;}
-
 .navbar-text li{font-size: 15px;}
+#icon-bar{display: none;}
 /* navbar area style end here */
 
 /* banner area style start here */
