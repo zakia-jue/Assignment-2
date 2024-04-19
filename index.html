@@ -8,21 +8,28 @@
 <!-- css style link here -->
 <link rel="stylesheet" href="./style.css">
  
+<!-- css responsive link here -->
+<link rel="stylesheet" href="./responsive.css">
+
 <!-- google fonts link here -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+ 
+<!-- fontasowme link here -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 </head>
 <body>
  <!-- navbar section code start here    -->
-<section>
+<section class="nav-area">
 <ul class="navbar-text"> 
-    <img src="./images/logo.png" alt="logo">
+    <img class="nav-img" src="./images/logo.png" alt="logo">
     <li>Home</li>
     <li>Shoes</li>
     <li>Backpack</li>
     <li>Subscribe</li>
+    <i class="fa-solid fa-bars"></i>
 </ul>
 </section> 
 <!-- navbar section code end here    -->
@@ -31,7 +38,7 @@
 <section>
 <div class="banner-area">
 <div class="banner-text">
-    <h1>Cool Dude Headphone</h1>
+    <h1 class="banner-heading">Cool Dude Headphone</h1>
     <p>This is the best headphone in the world for people who just want to waste time in front of funky world</p>
     <h1 class="banner-price">$420</h1>
     <button class="banner-button">Buy Now</button>
@@ -67,7 +74,7 @@
 <section class="display-shoes">
 <h2 class="main-text">Shoes</h2>
 <div class="shoe-card-main-div">
-<div class="shoe-card">
+<div class="shoe-card" id="shoe-caed-1">
     <img class="display-shoe-img" src="./images/shoe-1.png" alt="shoe-1">
     <h3>Supply 350</h3>
     <p>This is a wider card with supporting text below
@@ -141,7 +148,7 @@
     </section>
     <!-- display bags area code end here -->
 
-    <!-- footer area code start here -->
+<!-- footer area code start here -->
 <footer class="footer-area">
 
 <div class="footer-main-div">

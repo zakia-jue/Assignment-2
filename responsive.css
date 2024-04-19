@@ -1,0 +1,116 @@
+/* responsive style for small device */
+@media only screen and (max-width:688px){
+
+/* navbar responsive style start here */
+.navbar-text{padding-left: 8px;}
+.navbar-text li{font-size: 8px;
+display: none;}
+.nav-img{height: 25px;
+width: 130px;}
+.fa-solid{padding-left: 160px;
+font-size: 20px;}
+/* navbar responsive style end here */
+/* banner area responsive style start here */
+.banner-area{margin-left: 8px;
+    margin-right: 8px;
+    height: 380px;}
+.banner-img{height: 140px;
+    width: 100px;}
+.img-div{padding-top: 110px;}
+.banner-text{padding-top: 30px;
+        padding-left: 20px;}
+.banner-heading{font-size: 30px;
+    font-weight: 400;line-height: 30px;}
+.banner-text p{font-size: 14px;}
+.banner-price{font-weight: 400;}
+.banner-button{padding: 8px 10px;}
+.banner-price:hover{cursor: pointer;}
+.banner-button:hover{cursor: pointer;}
+/* banner area responsive style end here */
+/* colorful card area responsive start hare */
+.colourful-cards-1{
+    height: 100px; width: 328px;}
+.colourful-cards-2{
+     height: 100px; width: 328px;}
+.colourful-cards-3{
+     height: 100px; width: 328px;}
+.card-text{font-size: 30px;}
+.colourful-cards-img{height:80px;
+    width: 80px;
+    padding-top: 8px;
+    padding-right: 10px;}
+.colorful-main-div{
+    grid-template-columns: 1fr;
+    margin-left: 8px;
+    margin-right: 8px;
+    gap: 10px;
+    padding-top: 25px;}
+/* colorful card area responsive end hare */
+/* shoe display area responsive start here */
+.shoe-card{height: 475px;
+    width: 328px ;}
+#shoe-caed-1{height: 500px;}
+.shoe-card-main-div{grid-template-columns: 1fr;}
+.display-shoes{margin-left: 8px;
+        margin-right: 8px;}
+.main-text{font-size: 25px;
+   padding-top: 10px;}
+/* shoe display area responsive end here */
+/* display bag aea responsive start here */
+.bag-cards{width: 328px ;}
+.bag-card-main-div{grid-template-columns: 1fr;
+    gap: 10px;}
+.display-bags{margin-left: 8px;
+        margin-right: 8px;}
+.main-bags-text{font-size: 25px;
+       padding-top: 10px;}
+/* display bag aea responsive end here */
+/* footer area responsive start here */
+.footer-area{margin-left: 5px;
+    margin-right: 5px;
+margin-top: 30px;
+height: 280px;
+width: 340px;
+margin-bottom: 30px;}
+.footer-main-div{padding-left: 40px;
+    padding-top: 35px;
+    line-height: 15px;}
+.footer-main-div h1{font-size: 25px;}
+.footer-main-div p{font-size: 14px;}
+.inputs{width: 240px;}
+.footer-button{padding: 10px 18px;
+    font-size: 18px;
+    margin-top: 12px;}
+.copy-right{font-size: 14px;
+margin-bottom: 300px;} 
+/* footer area responsive end here   */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
